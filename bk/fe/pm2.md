@@ -73,7 +73,7 @@ pm2 ecosystem
       user : "xqart",
       host : "47.xx.xxx.xxx",
       ref  : "origin/master",
-      repo : "git@gitee.com:kongwutw/xqart-h5-vue.git",
+      repo : "git@gitee.com:wanzhip/xqart-h5-vue.git",
       path : "/home/xqart/h5",
       "post-deploy" : "git pull"
     }
