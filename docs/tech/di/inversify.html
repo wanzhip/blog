@@ -6,9 +6,9 @@
     <title>基于 Inversify 打造 DI 业务框架 | wanzhip</title>
     <meta name="description" content="让全栈编程更容易~">
     <link rel="stylesheet" href="/blog/assets/style.12993c18.css">
-    <link rel="modulepreload" href="/blog/assets/Home.196dc02c.js">
-    <link rel="modulepreload" href="/blog/assets/app.db2e2705.js">
-    <link rel="modulepreload" href="/blog/assets/tech_di_inversify.md.f57a132e.lean.js">
+    <link rel="modulepreload" href="/blog/assets/Home.d3eb3d34.js">
+    <link rel="modulepreload" href="/blog/assets/app.fd831a02.js">
+    <link rel="modulepreload" href="/blog/assets/tech_di_inversify.md.892ffb68.lean.js">
     
     <link rel="icon" type="image/svg+xml" href="/logo.png">
   <meta name="twitter:title" content="基于 Inversify 打造 DI 业务框架 | wanzhip">
@@ -114,8 +114,8 @@ const car = container.get&lt;MyCar&gt;(Car);
 @ServiceIdentifier 具备装饰语义的构造器参数的装饰器，在类的构造函数中表示依赖注入关系
 container.get 获取依赖分析，析出需要的对象，完成整个 DI 过程
 </code></pre></div><p>促使使用者（业务开发者）只需要掌握 4 个 API 就可以完成主要的 DI 系统设计，整体简化了依赖注入的理解成本，同时兼顾 DI 风格的优雅性。可以在实战过程中通过较低的成本封装 Inversify 实现。当然对于本身需求就比较简单的，也可以手撸一个简单版本的 Inversify 或者使用其它业界开源的 DI 框架辅助实现。</p><h2 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-hidden="true">#</a></h2><ul><li>● Inversify 真的非常强大，看项目起源于 2015 年，经过 5 年多的迭代，已经形成了一个很强大的依赖注入库，践行着 IOC 的思想，主流的应用程序架构基本上能够 cover 住。</li><li>● 使用 OO 的组织方式，来实现「链式调用」，建立 xxSyntax 类来处理还是颇有意思的。</li><li>● OO 的经典思想在大型项目里依旧不过时，近期在做扩展（SPI）机制的设计，和外部集成的时候，使用 Inversify 确实帮助自己「平地起高楼」，一定程度上熟悉源代码代码也是受益匪浅，对 IoC 的 TS 实现有了更全面的理解。</li></ul></div></div><footer class="page-footer" data-v-7eddb2c4 data-v-fb8d84c6><div class="edit" data-v-fb8d84c6><div class="edit-link" data-v-fb8d84c6 data-v-1ed99556><!----></div></div><div class="updated" data-v-fb8d84c6><!----></div></footer><div class="next-and-prev-link" data-v-7eddb2c4 data-v-38ede35f><div class="container" data-v-38ede35f><div class="prev" data-v-38ede35f><a class="link" href="/blog/tech/di/about" data-v-38ede35f><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev" data-v-38ede35f><path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path></svg><span class="text" data-v-38ede35f>深入浅出依赖注入</span></a></div><div class="next" data-v-38ede35f><a class="link" href="/blog/tech/di/angular" data-v-38ede35f><span class="text" data-v-38ede35f>Angular 的依赖注入</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next" data-v-38ede35f><path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path></svg></a></div></div></div><!--[--><!--]--></div></main></div><!----><!--]--></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"about_index.md\":\"65967eda\",\"index.md\":\"78a68db8\",\"manage_index.md\":\"d399087c\",\"manage_sum.md\":\"3525881d\",\"tech_di_about.md\":\"40f17d7b\",\"tech_di_angular.md\":\"fd01cc12\",\"tech_di_hooks.md\":\"4c794b04\",\"tech_di_inversify.md\":\"f57a132e\",\"tech_di_react.md\":\"7bc24ced\",\"tech_edge.md\":\"162efa09\",\"tech_index.md\":\"0efa5ac1\",\"tech_iot.md\":\"5c7395f6\",\"tech_low.md\":\"a8032d77\"}")</script>
-    <script type="module" async src="/blog/assets/app.db2e2705.js"></script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"about_index.md\":\"01950bf1\",\"index.md\":\"7550a100\",\"manage_index.md\":\"147d6db3\",\"manage_sum.md\":\"e2e74c3e\",\"tech_di_about.md\":\"0f4ce7ad\",\"tech_di_angular.md\":\"b0971bab\",\"tech_di_hooks.md\":\"bd623762\",\"tech_di_inversify.md\":\"892ffb68\",\"tech_di_react.md\":\"d2ffef08\",\"tech_edge.md\":\"090fdc24\",\"tech_index.md\":\"e7278102\",\"tech_iot.md\":\"641b67fe\",\"tech_low.md\":\"a0dbd771\"}")</script>
+    <script type="module" async src="/blog/assets/app.fd831a02.js"></script>
     
   </body>
 </html>
