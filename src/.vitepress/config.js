@@ -60,9 +60,9 @@ module.exports = {
     sidebar: {
       '/about': 'auto',
       '/tech': [
-        {
-          text: '技术',
-          children: [
+        // {
+        //   text: '技术',
+        //   children: [
             // {
             //   text: '22年大前端热点技术',
             //   link: '/tech/'
@@ -79,8 +79,8 @@ module.exports = {
             //   text: '边缘计算与端智能',
             //   link: '/tech/edge'
             // },
-          ]
-        },
+        //   ]
+        // },
         // {
         //   text: '随笔',
         //   children: [
