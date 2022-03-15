@@ -8,7 +8,7 @@ module.exports = {
   outDir: '../docs',
   base:'/blog/',
   title: 'wanzhip',
-  description: '让全栈编程更容易~',
+  description: '欢迎来到我的主页~',
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }]],
   themeConfig: {
     repo: 'wanzhip/blog',
@@ -61,7 +61,7 @@ module.exports = {
       '/about': 'auto',
       '/tech': [
         {
-          text: '技术调研',
+          text: '技术',
           children: [
             // {
             //   text: '22年大前端热点技术',
@@ -81,9 +81,9 @@ module.exports = {
             // },
           ]
         },
-        {
-          text: '技术原理',
-          children: [
+        // {
+        //   text: '随笔',
+        //   children: [
             // {
             //   text: '深入浅出依赖注入',
             //   link: '/tech/di/about'
@@ -104,8 +104,8 @@ module.exports = {
             //   text: 'React 和 Vue 中的 Hooks 对比',
             //   link: '/tech/di/hooks'
             // },
-          ]
-        },
+        //   ]
+        // },
       ],
       '/manage': [
         // {
